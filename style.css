@@ -12,8 +12,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #333;
-    color: #fff;
+    background-color: #6A1B9A;
+    color: #F3E5F5;
 }
 
 .container_content_header {
@@ -24,14 +24,14 @@
 
 .input_header {
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    border: 1px solid #BA68C8;
     border-radius: 0.4rem;
 }
 
 .buttonSearch {
     padding: 0.5rem 1rem;
-    background-color: #2196F3;
-    color: #fff;
+    background-color: #42A5F5;
+    color: #E3F2FD;
     border: none;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -44,8 +44,8 @@
 
 .header_buttonAdd {
     padding: 0.5rem 1rem;
-    background-color: #4CAF50;
-    color: #fff;
+    background-color: #66BB6A;
+    color: #E8F5E9;
     border: none;
     border-radius: 0.4rem;
     cursor: pointer;
@@ -64,9 +64,9 @@
 /* =========== MAIN =========== */
 .listAside {
     width: 20%;
-    background-color: #f4f4f4;
+    background-color: #FFF3E0;
     padding: 1rem;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #FFAB91;
 }
 
 .container_view {
@@ -95,8 +95,8 @@
 
 .containerTargetItem {
     width: calc(33.333% - 1rem);
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #E8F5E9;
+    border: 1px solid #A5D6A7;
     border-radius: 0.4rem;
     overflow: hidden;
     cursor: pointer;
@@ -132,6 +132,7 @@
 .listAside h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: #6A1B9A;
 }
 
 .listAside ul {
@@ -147,16 +148,18 @@
     font-size: 2vh;
     padding: 0.4rem;
     border-radius: 0.4rem;
+    color: #4527A0;
 }
 
 .listAside ul li:hover {
-    background-color: #4CAF50;
+    background-color: #7E57C2;
+    color: #fff;
     cursor: pointer;
 }
 
 .liActive {
-    background-color: #4CAF50;
-    color: #000;
+    background-color: #AB47BC;
+    color: #fff;
     padding: 0.4rem;
     border-radius: 0.4rem;
 }
@@ -178,8 +181,8 @@
 .popUpContainer {
     width: 50vw;
     height: 50vh;
-    background-color: #f0f0f0;
-    box-shadow: 5px 2px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: #F3E5F5;
+    box-shadow: 5px 2px 10px 10px rgba(0, 0, 0, 0.3);
     border-radius: 0.4rem;
     display: flex;
     flex-direction: column;
@@ -189,6 +192,7 @@
 .containerTitlePopUP {
     width: 100%;
     text-align: center;
+    color: #6A1B9A;
 }
 
 .containerInputs_popUP {
@@ -202,7 +206,7 @@
 .containerInputs_popUP input,
 .containerInputs_popUP select {
     width: 60%;
-    border: 1px solid #000;
+    border: 1px solid #BA68C8;
     padding: 0.4rem;
     border-radius: 0.4rem;
 }
@@ -218,18 +222,19 @@
     border: none;
     border-radius: 0.4rem;
     font-size: 2vh;
+    color: #fff;
 }
 
 .cancel {
-    background-color: #FF9800;
+    background-color: #FF7043;
 }
 
 .accept {
-    background-color: #2196F3;
+    background-color: #42A5F5;
 }
 
 .delete {
-    background-color: #F44336;
+    background-color: #EF5350;
 }
 
 /* MEDIA QUERY */
@@ -250,14 +255,14 @@
 
 ::-webkit-scrollbar {
     width: 1rem;
-    background-color: #f0f0f0;
+    background-color: #F5F5F5;
     border-radius: 0.4rem;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #3F51B5;
+    background-color: #8E24AA;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #1A237E;
+    background-color: #6A1B9A;
 }
